@@ -1,0 +1,131 @@
+.wrap{
+    max-width:350px;
+    border-radius:20px;
+    margin:auto;
+    background:rgba(0.0, 0, 0, 0.8);
+    box-sizing:border-box;
+    padding:40px;
+    color:#fff;
+    margin-top:100px;
+}
+.item{
+    display: inline-block;
+    max-width: 30%;
+    border-radius:20px;
+    background:rgba(0, 0, 0, 0.8);
+    box-sizing:  border-box;
+    padding:40px;
+    color:#fff;
+    margin-top:100px;
+    margin-left: 2.5%;
+}
+
+.item_dreapta{
+   float:right;
+    max-width: 30%;
+    border-radius:20px;
+    background:rgba(0, 0, 0, 0.8);
+    box-sizing:  border-box;
+    padding:40px;
+    color:#fff;
+    margin-top:100px;
+    margin-right: 200px;;
+}
+.item_stanga{
+    display: inline-block;
+    max-width: 30%;
+    border-radius:20px;
+    background:rgba(0, 0, 0, 0.8);
+    box-sizing:  border-box;
+    padding:40px;
+    color:#fff;
+    margin-top:100px;
+    margin-left: 200px;
+}
+.img{
+    text-align: center;
+}
+
+table th,td{
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    outline:none;
+    border:none;
+    border-bottom:1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin:5px;
+    font-weight:bold;
+}
+
+input[type=number]{
+   width: 60%;
+   box-sizing: border-box;
+   padding: 12px 5px;
+   background: rgba(0, 0, 0, 0.10);
+   outline:none;
+   border:none;
+   border-bottom:1px dotted #fff;
+   color: #fff;
+   border-radius: 5px;
+   margin:5px;
+   font-weight:bold;
+}
+input[type=text]{
+   width:59%;
+   box-sizing: border-box;
+   padding: 12px 5px;
+   background: rgba(0, 0, 0, 0.10);
+   outline:none;
+   border:none;
+   border-bottom:1px dotted #fff;
+   color: #fff;
+   border-radius: 5px;
+   margin:5px;
+   font-weight:bold;
+}
+
+.submit_green:hover{
+    background:#003366;
+    opacity:0.7;
+}
+
+.submit_red:hover{
+    background:#320a02;
+    opacity:0.7;
+}
+.submit_green{
+    width:49%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff;
+}
+
+.submit_red{
+    width:49%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#791909;
+    opacity:0.7;
+    border-radius:20px;
+    font-size:20px;
+    color:#fff;
+}
